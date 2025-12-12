@@ -1,13 +1,13 @@
 import json
 
 def get_db():
-    with open("../data/species.json", "r", encoding="utf-8") as file_json:
+    with open("https://desafio-silva-db.vercel.app/species.json", "r", encoding="utf-8") as file_json:
         data_json = json.load(file_json)
 
     return data_json
 
 def save_db(data):
-    with open("../data/species.json", "w", encoding="utf-8") as file_json:
+    with open("https://desafio-silva-db.vercel.app/species.json", "w", encoding="utf-8") as file_json:
         json.dump(data, file_json, indent=2, ensure_ascii=False)
 
 # def get_paginate(start, end):
