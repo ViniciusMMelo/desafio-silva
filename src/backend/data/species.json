@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 1,
+    "commonName": "Ipê Amarelo",
+    "scientificName": "Handroanthus serratifolius",
+    "biomes": ["Cerrado", "Mata Atlântica", "Amazônia"],
+    "description": "Árvore de grande porte, muito utilizada em paisagismo e restauração de áreas degradadas devido à sua beleza e floração exuberante."
+  },
+  {
+    "id": 2,
+    "commonName": "Jequitibá Rosa",
+    "scientificName": "Cariniana legalis",
+    "biomes": ["Mata Atlântica"],
+    "description": "Espécie nativa da Mata Atlântica, conhecida por sua longevidade e porte majestoso, fundamental para a recuperação de florestas."
+  },
+  {
+    "id": 3,
+    "commonName": "Paineira",
+    "scientificName": "Ceiba speciosa",
+    "biomes": ["Mata Atlântica", "Cerrado", "Caatinga"],
+    "description": "Árvore ornamental com tronco espinhoso e flores grandes, famosa por suas fibras de algodão que se dispersam no vento."
+  },
+  {
+    "id": 4,
+    "commonName": "Canafístula",
+    "scientificName": "Peltophorum dubium",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de crescimento rápido, ideal para reflorestamento e sombreamento, com flores amarelas vibrantes."
+  },
+  {
+    "id": 5,
+    "commonName": "Sapucaia",
+    "scientificName": "Lecythis pisonis",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Árvore de grande porte que produz frutos comestíveis em formato de urna, muito apreciada pela fauna."
+  },
+  {
+    "id": 6,
+    "commonName": "Jacarandá-mimoso",
+    "scientificName": "Jacaranda mimosifolia",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Famosa por suas flores roxas e abundantes que caem formando um tapete no chão, usada em arborização urbana."
+  },
+  {
+    "id": 7,
+    "commonName": "Sibipiruna",
+    "scientificName": "Caesalpinia pluviosa",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore ornamental e de reflorestamento, com floração amarela intensa e rápido crescimento."
+  },
+  {
+    "id": 8,
+    "commonName": "Angico-vermelho",
+    "scientificName": "Anadenanthera colubrina",
+    "biomes": ["Cerrado", "Mata Atlântica", "Caatinga"],
+    "description": "Espécie pioneira, resistente e importante para a recuperação de solos degradados, com madeira de boa qualidade."
+  },
+  {
+    "id": 9,
+    "commonName": "Araucária",
+    "scientificName": "Araucaria angustifolia",
+    "biomes": ["Mata Atlântica (Floresta com Araucárias)"],
+    "description": "Conífera símbolo do sul do Brasil, produtora de pinhão, ameaçada de extinção e vital para o bioma."
+  },
+  {
+    "id": 10,
+    "commonName": "Palmeira Juçara",
+    "scientificName": "Euterpe edulis",
+    "biomes": ["Mata Atlântica"],
+    "description": "Palmeira nativa que produz um açaí de alta qualidade, essencial para a fauna e crucial para a restauração da Mata Atlântica."
+  },
+  {
+    "id": 11,
+    "commonName": "Gráfia",
+    "scientificName": "Platymiscium floribundum",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de porte médio, com madeira de alta densidade e flores amarelas, atrai abelhas e pássaros."
+  },
+  {
+    "id": 12,
+    "commonName": "Goiaba",
+    "scientificName": "Psidium guajava",
+    "biomes": ["Todos os biomas (naturalizada, originária da América tropical)"],
+    "description": "Fruteira popular, seus frutos são ricos em vitamina C e a árvore é resistente, adaptando-se a diversos solos."
+  },
+  {
+    "id": 13,
+    "commonName": "Pitanga",
+    "scientificName": "Eugenia uniflora",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Pequena árvore ou arbusto com frutos vermelhos e ácidos, muito apreciados por aves e para consumo humano."
+  },
+  {
+    "id": 14,
+    "commonName": "Jenipapo",
+    "scientificName": "Genipa americana",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica"],
+    "description": "Árvore com frutos comestíveis e sementes usadas para corante, importante para a cultura indígena e para a fauna."
+  },
+  {
+    "id": 15,
+    "commonName": "Maracujá",
+    "scientificName": "Passiflora edulis",
+    "biomes": ["Mata Atlântica", "Cerrado", "Amazônia"],
+    "description": "Cipó trepadeira que produz frutos ácidos, amplamente cultivado e apreciado por suas propriedades calmantes."
+  },
+  {
+    "id": 16,
+    "commonName": "Ingá",
+    "scientificName": "Inga edulis",
+    "biomes": ["Amazônia", "Mata Atlântica", "Cerrado"],
+    "description": "Árvore que produz vagens comestíveis com polpa doce, útil para sistemas agroflorestais e recuperação de margens de rios."
+  },
+  {
+    "id": 17,
+    "commonName": "Cedro",
+    "scientificName": "Cedrela fissilis",
+    "biomes": ["Mata Atlântica", "Amazônia", "Cerrado"],
+    "description": "Árvore de madeira nobre e aromática, valorizada na marcenaria e presente em diversas formações florestais."
+  },
+  {
+    "id": 18,
+    "commonName": "Louro-Pardo",
+    "scientificName": "Cordia trichotoma",
+    "biomes": ["Mata Atlântica", "Cerrado", "Pantanal"],
+    "description": "Árvore de porte médio a grande, com madeira de boa qualidade e folhas rugosas, comum em matas ciliares."
+  },
+  {
+    "id": 19,
+    "commonName": "Pau-Ferro",
+    "scientificName": "Libidibia ferrea",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de madeira extremamente dura e densa, utilizada em construções e ornamentalmente."
+  },
+  {
+    "id": 20,
+    "commonName": "Embaúba",
+    "scientificName": "Cecropia hololeuca",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Espécie pioneira de rápido crescimento, essencial para a regeneração florestal e alimentação da fauna."
+  },
+  {
+    "id": 21,
+    "commonName": "Quaresmeira",
+    "scientificName": "Tibouchina granulosa",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore ornamental com flores roxas vibrantes, muito utilizada em paisagismo e arborização urbana."
+  },
+  {
+    "id": 22,
+    "commonName": "Fedegoso",
+    "scientificName": "Senna macranthera",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Pequena árvore com flores amarelas, atrai polinizadores e é comum em áreas degradadas."
+  },
+  {
+    "id": 23,
+    "commonName": "Aroeira-Pimenteira",
+    "scientificName": "Schinus terebinthifolia",
+    "biomes": ["Mata Atlântica", "Cerrado", "Pampa", "Pantanal"],
+    "description": "Árvore versátil e resistente, seus frutos são usados como pimenta rosa e é importante para a fauna."
+  },
+  {
+    "id": 24,
+    "commonName": "Peroba-Rosa",
+    "scientificName": "Aspidosperma polyneuron",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de madeira nobre e durável, amplamente utilizada na construção civil e mobiliário."
+  },
+  {
+    "id": 25,
+    "commonName": "Guapuruvu",
+    "scientificName": "Schizolobium parahyba",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore de crescimento rápido e grande porte, com flores amarelas e vagens grandes, ornamental e para reflorestamento."
+  },
+  {
+    "id": 26,
+    "commonName": "Amendoim Bravo",
+    "scientificName": "Pterogyne nitens",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore de madeira resistente, usada em marcenaria e carpintaria, com boa adaptação a diferentes solos."
+  },
+  {
+    "id": 27,
+    "commonName": "Baru",
+    "scientificName": "Dipteryx alata",
+    "biomes": ["Cerrado"],
+    "description": "Árvore símbolo do Cerrado, produz frutos comestíveis e nutritivos, valorizados pela gastronomia e sustentabilidade."
+  },
+  {
+    "id": 28,
+    "commonName": "Cagaita",
+    "scientificName": "Eugenia dysenterica",
+    "biomes": ["Cerrado"],
+    "description": "Fruteira nativa do Cerrado, com frutos ácidos e saborosos, importantes para a fauna local."
+  },
+  {
+    "id": 29,
+    "commonName": "Pequi",
+    "scientificName": "Caryocar brasiliense",
+    "biomes": ["Cerrado"],
+    "description": "Fruta icônica do Cerrado, muito utilizada na culinária regional, com sabor e aroma marcantes."
+  },
+  {
+    "id": 30,
+    "commonName": "Ipê Roxo",
+    "scientificName": "Handroanthus impetiginosus",
+    "biomes": ["Cerrado", "Mata Atlântica", "Caatinga"],
+    "description": "Árvore de floração roxa espetacular, muito usada em arborização urbana e projetos de recuperação ambiental."
+  },
+  {
+    "id": 31,
+    "commonName": "Macaúba",
+    "scientificName": "Acrocomia aculeata",
+    "biomes": ["Cerrado", "Caatinga", "Mata Atlântica", "Pantanal"],
+    "description": "Palmeira multifuncional, com frutos comestíveis, óleo e potencial para bioenergia."
+  },
+  {
+    "id": 32,
+    "commonName": "Buriti",
+    "scientificName": "Mauritia flexuosa",
+    "biomes": ["Cerrado", "Amazônia", "Pantanal"],
+    "description": "Palmeira das áreas úmidas, produz frutos ricos em vitamina A e é fundamental para a fauna aquática."
+  },
+  {
+    "id": 33,
+    "commonName": "Cajueiro",
+    "scientificName": "Anacardium occidentale",
+    "biomes": ["Caatinga", "Mata Atlântica", "Amazônia"],
+    "description": "Árvore que produz caju e castanha de caju, adaptada a climas quentes e secos."
+  },
+  {
+    "id": 34,
+    "commonName": "Umbuzeiro",
+    "scientificName": "Spondias tuberosa",
+    "biomes": ["Caatinga"],
+    "description": "Árvore sagrada da Caatinga, resistente à seca, produz frutos e raízes comestíveis, um 'reservatório' de água."
+  },
+  {
+    "id": 35,
+    "commonName": "Mandacaru",
+    "scientificName": "Cereus jamacaru",
+    "biomes": ["Caatinga"],
+    "description": "Cacto colunar gigante, símbolo da Caatinga, com flores noturnas e frutos comestíveis, serve de alimento para a fauna e o gado."
+  },
+  {
+    "id": 36,
+    "commonName": "Jurema Preta",
+    "scientificName": "Mimosa tenuiflora",
+    "biomes": ["Caatinga"],
+    "description": "Arbusto leguminoso com crescimento rápido, útil na recuperação de solos degradados e como forrageira."
+  },
+  {
+    "id": 37,
+    "commonName": "Ipê Branco",
+    "scientificName": "Handroanthus serratifolius (variedade alba)",
+    "biomes": ["Cerrado", "Mata Atlântica", "Caatinga"],
+    "description": "Variedade do Ipê, com flores brancas e delicadas, importante para a arborização e recuperação."
+  },
+  {
+    "id": 38,
+    "commonName": "Bacupari",
+    "scientificName": "Garcinia gardneriana",
+    "biomes": ["Mata Atlântica"],
+    "description": "Pequena árvore frutífera com frutos amarelos e ácidos, apreciados para sucos e doces."
+  },
+  {
+    "id": 39,
+    "commonName": "Candeia",
+    "scientificName": "Eremanthus erythropappus",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore de madeira nobre, muito utilizada para postes e cercas, e na produção de óleo essencial."
+  },
+  {
+    "id": 40,
+    "commonName": "Cambuci",
+    "scientificName": "Campomanesia phaea",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore frutífera com frutos exóticos e aromáticos, com formato que lembra um sino, em risco de extinção."
+  },
+  {
+    "id": 41,
+    "commonName": "Caroba",
+    "scientificName": "Jacaranda caroba",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore com flores roxas e propriedades medicinais, usada em paisagismo."
+  },
+  {
+    "id": 42,
+    "commonName": "Caju-do-mato",
+    "scientificName": "Anacardium humile",
+    "biomes": ["Cerrado"],
+    "description": "Arbusto rasteiro do Cerrado, produz frutos similares ao caju, importantes para a fauna local."
+  },
+  {
+    "id": 43,
+    "commonName": "Farinha Seca",
+    "scientificName": "Albizia lebbeck",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de rápido crescimento, boa para sombreamento e fixação de nitrogênio no solo."
+  },
+  {
+    "id": 44,
+    "commonName": "Guanandi",
+    "scientificName": "Calophyllum brasiliense",
+    "biomes": ["Mata Atlântica", "Amazônia", "Pantanal"],
+    "description": "Árvore de madeira de alta qualidade, resistente à água salgada, usada na construção naval e reflorestamento."
+  },
+  {
+    "id": 45,
+    "commonName": "Macanaíba",
+    "scientificName": "Platymiscium ulei",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Árvore de madeira resistente, utilizada em construções e móveis, com flores amarelas que atraem polinizadores."
+  },
+  {
+    "id": 46,
+    "commonName": "Mogno",
+    "scientificName": "Swietenia macrophylla",
+    "biomes": ["Amazônia"],
+    "description": "Madeira nobre e de alto valor comercial, intensamente explorada, com esforços de reflorestamento."
+  },
+  {
+    "id": 47,
+    "commonName": "Pau-Brasil",
+    "scientificName": "Paubrasilia echinata",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore símbolo do Brasil, com madeira avermelhada e muito valorizada historicamente, atualmente ameaçada."
+  },
+  {
+    "id": 48,
+    "commonName": "Pau-Jacaré",
+    "scientificName": "Piptadenia gonoacantha",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de tronco rugoso e escamoso, que lembra a pele de jacaré, importante para a recuperação de áreas degradadas."
+  },
+  {
+    "id": 49,
+    "commonName": "Tamboril",
+    "scientificName": "Enterolobium contortisiliquum",
+    "biomes": ["Mata Atlântica", "Cerrado", "Amazônia"],
+    "description": "Árvore de grande porte, com copa ampla e frutos em formato de orelha, boa para sombreamento e fixação de nitrogênio."
+  },
+  {
+    "id": 50,
+    "commonName": "Gonçalo Alves",
+    "scientificName": "Myracrodruon urundeuva",
+    "biomes": ["Cerrado", "Caatinga", "Pantanal", "Mata Atlântica"],
+    "description": "Árvore de madeira de alta durabilidade e resistência, muito valorizada na construção civil e para cercas."
+  },
+  {
+    "id": 51,
+    "commonName": "Ipê-Verde",
+    "scientificName": "Handroanthus chrysotrichus",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Variação de Ipê com flores esverdeadas/amareladas, menos comum, mas igualmente importante para a arborização."
+  },
+  {
+    "id": 52,
+    "commonName": "Copaíba",
+    "scientificName": "Copaifera langsdorffii",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica"],
+    "description": "Árvore que produz um óleo medicinal conhecido como 'bálsamo da Amazônia', com propriedades anti-inflamatórias."
+  },
+  {
+    "id": 53,
+    "commonName": "Angelim-Vermelho",
+    "scientificName": "Dinizia excelsa",
+    "biomes": ["Amazônia"],
+    "description": "Gigante da Amazônia, com madeira muito resistente, importante para a economia e para a biodiversidade."
+  },
+  {
+    "id": 54,
+    "commonName": "Castanheira-do-Pará",
+    "scientificName": "Bertholletia excelsa",
+    "biomes": ["Amazônia"],
+    "description": "Árvore monumental da Amazônia, produtora da castanha-do-pará, crucial para a economia local e ecossistema."
+  },
+  {
+    "id": 55,
+    "commonName": "Açaí",
+    "scientificName": "Euterpe oleracea",
+    "biomes": ["Amazônia", "Mata Atlântica (restinga)"],
+    "description": "Palmeira amplamente cultivada na Amazônia por seus frutos ricos em antioxidantes, base da alimentação regional."
+  },
+  {
+    "id": 56,
+    "commonName": "Cupuaçu",
+    "scientificName": "Theobroma grandiflorum",
+    "biomes": ["Amazônia"],
+    "description": "Fruta amazônica com sabor exótico, utilizada em sucos, doces e cosméticos, com propriedades nutritivas."
+  },
+  {
+    "id": 57,
+    "commonName": "Abiu",
+    "scientificName": "Pouteria caimito",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Árvore frutífera com frutos doces e polpa translúcida, popular em algumas regiões."
+  },
+  {
+    "id": 58,
+    "commonName": "Bacaba",
+    "scientificName": "Oenocarpus bacaba",
+    "biomes": ["Amazônia"],
+    "description": "Palmeira amazônica que produz frutos de onde se extrai um óleo comestível e bebidas."
+  },
+  {
+    "id": 59,
+    "commonName": "Muruci",
+    "scientificName": "Byrsonima crassifolia",
+    "biomes": ["Amazônia", "Cerrado", "Caatinga", "Pantanal"],
+    "description": "Árvore pequena com frutos amarelos e aromáticos, usados em sucos e doces, muito apreciados pela fauna."
+  },
+  {
+    "id": 60,
+    "commonName": "Babaçu",
+    "scientificName": "Attalea speciosa",
+    "biomes": ["Amazônia (transição), Cerrado, Caatinga"],
+    "description": "Palmeira de múltiplas utilidades, com frutos que produzem óleo, alimento e carvão vegetal."
+  },
+  {
+    "id": 61,
+    "commonName": "Araticum",
+    "scientificName": "Annona crassiflora",
+    "biomes": ["Cerrado"],
+    "description": "Fruteira do Cerrado com frutos grandes e saborosos, utilizados na culinária regional."
+  },
+  {
+    "id": 62,
+    "commonName": "Cajá-manga",
+    "scientificName": "Spondias dulcis",
+    "biomes": ["Amazônia", "Mata Atlântica (cultivada/naturalizada)"],
+    "description": "Árvore frutífera com frutos ácidos e aromáticos, amplamente cultivada e apreciada."
+  },
+  {
+    "id": 63,
+    "commonName": "Guajuvira",
+    "scientificName": "Patagonula americana",
+    "biomes": ["Mata Atlântica", "Pampa"],
+    "description": "Árvore de madeira densa e dura, usada em movelaria e assoalhos, ornamental pela sua beleza."
+  },
+  {
+    "id": 64,
+    "commonName": "Pau-Mulato",
+    "scientificName": "Calycophyllum spruceanum",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Árvore de tronco liso e que descasca em placas, muito ornamental e com bom potencial madeireiro."
+  },
+  {
+    "id": 65,
+    "commonName": "Gonçaleiro",
+    "scientificName": "Astronium fraxinifolium",
+    "biomes": ["Cerrado", "Mata Atlântica", "Pantanal"],
+    "description": "Árvore de madeira avermelhada e resistente, valorizada na marcenaria e construção civil."
+  },
+  {
+    "id": 66,
+    "commonName": "Mulateiro",
+    "scientificName": "Calycophyllum acreanum",
+    "biomes": ["Amazônia"],
+    "description": "Árvore com casca que se renova, revelando um tronco liso, usada em cosméticos e com propriedades medicinais."
+  },
+  {
+    "id": 67,
+    "commonName": "Pata-de-Vaca",
+    "scientificName": "Bauhinia forficata",
+    "biomes": ["Mata Atlântica", "Cerrado", "Pampa"],
+    "description": "Árvore ornamental com folhas em formato de casco de boi e flores brancas, com uso medicinal."
+  },
+  {
+    "id": 68,
+    "commonName": "Capixingui",
+    "scientificName": "Croton floribundus",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore pioneira de rápido crescimento, importante para a recuperação de áreas degradadas e atrai fauna."
+  },
+  {
+    "id": 69,
+    "commonName": "Açoita-Cavalo",
+    "scientificName": "Luehea divaricata",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de rápido crescimento, utilizada em reflorestamento e com madeira leve, boa para pequenas construções."
+  },
+  {
+    "id": 70,
+    "commonName": "Guabiroba",
+    "scientificName": "Campomanesia xanthocarpa",
+    "biomes": ["Mata Atlântica", "Cerrado", "Pampa"],
+    "description": "Fruteira nativa com frutos amarelos e saborosos, consumidos in natura ou em doces."
+  },
+  {
+    "id": 71,
+    "commonName": "Caju-do-campo",
+    "scientificName": "Anacardium nanum",
+    "biomes": ["Cerrado"],
+    "description": "Pequeno arbusto do Cerrado com tronco subterrâneo, produz caju e castanha, adaptado ao fogo."
+  },
+  {
+    "id": 72,
+    "commonName": "Araribá",
+    "scientificName": "Centrolobium tomentosum",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore com madeira de alta qualidade, de cor amarelada e durável, usada em marcenaria e construções."
+  },
+  {
+    "id": 73,
+    "commonName": "Jacarandá-Preto",
+    "scientificName": "Dalbergia nigra",
+    "biomes": ["Mata Atlântica"],
+    "description": "Uma das madeiras mais valorizadas do mundo, em alto risco de extinção, com beleza e durabilidade excepcionais."
+  },
+  {
+    "id": 74,
+    "commonName": "Copaíba-da-Amazônia",
+    "scientificName": "Copaifera reticulata",
+    "biomes": ["Amazônia"],
+    "description": "Variedade amazônica da Copaíba, também produtora de óleo medicinal, com grande importância local."
+  },
+  {
+    "id": 75,
+    "commonName": "Angelina",
+    "scientificName": "Andira inermis",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore ornamental com flores roxas e frutos secos, atrai polinizadores."
+  },
+  {
+    "id": 76,
+    "commonName": "Mamoninha",
+    "scientificName": "Trema micrantha",
+    "biomes": ["Todos os biomas (espécie pioneira)"],
+    "description": "Pioneira de rápido crescimento, importante para a colonização de áreas abertas e degradadas."
+  },
+  {
+    "id": 77,
+    "commonName": "Monjoleiro",
+    "scientificName": "Acacia polyphylla",
+    "biomes": ["Cerrado", "Mata Atlântica", "Caatinga"],
+    "description": "Árvore fixadora de nitrogênio, resistente à seca, usada em reflorestamento e como forrageira."
+  },
+  {
+    "id": 78,
+    "commonName": "Açoita-cavalo-miúdo",
+    "scientificName": "Luehea paniculata",
+    "biomes": ["Mata Atlântica"],
+    "description": "Pequena árvore de crescimento rápido, ideal para a restauração de áreas de Mata Atlântica."
+  },
+  {
+    "id": 79,
+    "commonName": "Pau-Sangue",
+    "scientificName": "Pterocarpus rohrii",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Árvore de madeira avermelhada, que exuda uma seiva vermelha, usada em artesanato e pequenas construções."
+  },
+  {
+    "id": 80,
+    "commonName": "Gualandim",
+    "scientificName": "Senna multijuga",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore ornamental com flores amarelas em cachos, atrai borboletas e é usada em paisagismo."
+  },
+  {
+    "id": 81,
+    "commonName": "Angico-Branco",
+    "scientificName": "Anadenanthera macrocarpa",
+    "biomes": ["Cerrado", "Caatinga", "Mata Atlântica"],
+    "description": "Espécie pioneira de rápido crescimento, importante para a recuperação de solos e produção de madeira."
+  },
+  {
+    "id": 82,
+    "commonName": "Urucum",
+    "scientificName": "Bixa orellana",
+    "biomes": ["Amazônia", "Mata Atlântica (cultivada)"],
+    "description": "Arbusto ou pequena árvore que produz sementes usadas como corante natural (colorau) e em cosméticos."
+  },
+  {
+    "id": 83,
+    "commonName": "Amarelinho",
+    "scientificName": "Terminalia catappa",
+    "biomes": ["Litoral (naturalizada, exótica)"],
+    "description": "Árvore comum em regiões costeiras, com folhas que mudam de cor e frutos comestíveis."
+  },
+  {
+    "id": 84,
+    "commonName": "Pau-Formiga",
+    "scientificName": "Triplaris americana",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica"],
+    "description": "Árvore com flores vermelhas e um tronco oco que serve de abrigo para formigas, ornamental e de reflorestamento."
+  },
+  {
+    "id": 85,
+    "commonName": "Mamoninha-do-mato",
+    "scientificName": "Joannesia princeps",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Árvore de grande porte com frutos grandes e sementes oleaginosas, importante para a fauna."
+  },
+  {
+    "id": 86,
+    "commonName": "Sangue-de-Cristo",
+    "scientificName": "Croton urucurana",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Pequena árvore com seiva avermelhada, utilizada em medicina popular e paisagismo."
+  },
+  {
+    "id": 87,
+    "commonName": "Jacarandá-roxo",
+    "scientificName": "Jacaranda puberula",
+    "biomes": ["Mata Atlântica"],
+    "description": "Outra espécie de Jacarandá com flores roxas, valorizada para arborização e recuperação."
+  },
+  {
+    "id": 88,
+    "commonName": "Cambuí",
+    "scientificName": "Myrciaria cambuí",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore frutífera com frutos pequenos e saborosos, atrai aves e é usada em sistemas agroflorestais."
+  },
+  {
+    "id": 89,
+    "commonName": "Araçá-do-campo",
+    "scientificName": "Psidium firmum",
+    "biomes": ["Cerrado"],
+    "description": "Fruteira do Cerrado com frutos amarelos e aromáticos, com propriedades medicinais."
+  },
+  {
+    "id": 90,
+    "commonName": "Dedaleiro",
+    "scientificName": "Lafoensia pacari",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore ornamental com flores amarelas em forma de dedal, atrai aves e insetos."
+  },
+  {
+    "id": 91,
+    "commonName": "Ipê-do-cerrado",
+    "scientificName": "Handroanthus ochraceus",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Ipê adaptada ao Cerrado, com floração exuberante e importância ecológica."
+  },
+  {
+    "id": 92,
+    "commonName": "Pau-Terra",
+    "scientificName": "Qualea grandiflora",
+    "biomes": ["Cerrado"],
+    "description": "Árvore símbolo do Cerrado, com flores grandes e roxas, importante para a paisagem e a fauna."
+  },
+  {
+    "id": 93,
+    "commonName": "Cajueiro-do-campo",
+    "scientificName": "Anacardium othonianum",
+    "biomes": ["Cerrado"],
+    "description": "Outra espécie de caju adaptada ao Cerrado, com frutos e castanhas apreciadas."
+  },
+  {
+    "id": 94,
+    "commonName": "Embiruçu",
+    "scientificName": "Pseudobombax grandiflorum",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore ornamental com flores grandes e brancas que se abrem à noite, atrai morcegos."
+  },
+  {
+    "id": 95,
+    "commonName": "Jaracatiá",
+    "scientificName": "Jaracatia spinosa",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore com tronco espinhoso e frutos comestíveis, polpa gelatinosa e adocicada."
+  },
+  {
+    "id": 96,
+    "commonName": "Grumixama",
+    "scientificName": "Eugenia brasiliensis",
+    "biomes": ["Mata Atlântica"],
+    "description": "Fruteira nativa com frutos roxos e saborosos, muito ornamental e atrai aves."
+  },
+  {
+    "id": 97,
+    "commonName": "Mangaba",
+    "scientificName": "Hancornia speciosa",
+    "biomes": ["Cerrado", "Caatinga", "Restinga"],
+    "description": "Fruta nativa brasileira com sabor agridoce, muito apreciada para sucos e sorvetes."
+  },
+  {
+    "id": 98,
+    "commonName": "Pau-Pom",
+    "scientificName": "Caesalpinia ferrea",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de madeira extremamente dura, usada em construções e ornamentalmente pela casca mosqueada."
+  },
+  {
+    "id": 99,
+    "commonName": "Tinguí",
+    "scientificName": "Magonia pubescens",
+    "biomes": ["Cerrado"],
+    "description": "Árvore com flores amarelas e frutos espinhosos, sementes usadas para óleo e com propriedades medicinais."
+  },
+  {
+    "id": 100,
+    "commonName": "Vinhático",
+    "scientificName": "Plathymenia reticulata",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de madeira nobre e durável, amplamente utilizada na construção civil e mobiliário, com flores amarelas."
+  },
+  {
+    "id": 101,
+    "commonName": "Abricó-de-macaco",
+    "scientificName": "Couroupita guianensis",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Árvore com flores exóticas e grandes frutos esféricos que parecem bolas de canhão, usados na medicina popular."
+  },
+  {
+    "id": 102,
+    "commonName": "Bacaba-de-azeite",
+    "scientificName": "Oenocarpus distichus",
+    "biomes": ["Amazônia"],
+    "description": "Palmeira amazônica que produz frutos ricos em óleo, utilizados na alimentação e na indústria."
+  },
+  {
+    "id": 103,
+    "commonName": "Cacau",
+    "scientificName": "Theobroma cacao",
+    "biomes": ["Amazônia", "Mata Atlântica (cultivado)"],
+    "description": "Árvore que produz o fruto do cacau, base para o chocolate e com grande importância econômica e cultural."
+  },
+  {
+    "id": 104,
+    "commonName": "Cajarana",
+    "scientificName": "Spondias mombin",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica"],
+    "description": "Árvore frutífera com frutos amarelos, ácidos e aromáticos, muito usados em sucos e doces."
+  },
+  {
+    "id": 105,
+    "commonName": "Camu-camu",
+    "scientificName": "Myrciaria dubia",
+    "biomes": ["Amazônia"],
+    "description": "Arbusto ou pequena árvore amazônica que produz frutos com altíssimo teor de vitamina C, cultivada em áreas alagadas."
+  },
+  {
+    "id": 106,
+    "commonName": "Cupuí",
+    "scientificName": "Theobroma subincanum",
+    "biomes": ["Amazônia"],
+    "description": "Espécie do gênero Theobroma, parente do cacau, com frutos de polpa adocicada e saborosa."
+  },
+  {
+    "id": 107,
+    "commonName": "Envira",
+    "scientificName": "Duguetia lanceolata",
+    "biomes": ["Amazônia"],
+    "description": "Árvore de médio porte da Amazônia, com madeira usada na construção de embarcações e móveis rústicos."
+  },
+  {
+    "id": 108,
+    "commonName": "Jambu",
+    "scientificName": "Acmella oleracea",
+    "biomes": ["Amazônia"],
+    "description": "Erva amazônica com folhas e flores que provocam uma sensação de dormência e formigamento na boca, usada na culinária."
+  },
+  {
+    "id": 109,
+    "commonName": "Pau-rosa",
+    "scientificName": "Aniba rosaeodora",
+    "biomes": ["Amazônia"],
+    "description": "Árvore da qual se extrai um óleo essencial de alto valor, usado em perfumaria e cosméticos, espécie ameaçada."
+  },
+  {
+    "id": 110,
+    "commonName": "Puçá",
+    "scientificName": "Mouriri pusa",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Árvore que produz frutos comestíveis, com polpa suculenta e sabor agradável, apreciados pela fauna."
+  },
+  {
+    "id": 111,
+    "commonName": "Taperebá",
+    "scientificName": "Spondias lutea",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Fruteira com frutos amarelos e aromáticos, conhecida como cajá ou taperebá, muito usada em sucos."
+  },
+  {
+    "id": 112,
+    "commonName": "Tucumã",
+    "scientificName": "Astrocaryum vulgare",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Palmeira com frutos ricos em carotenoides, usados na alimentação, cosméticos e para extração de óleo."
+  },
+  {
+    "id": 113,
+    "commonName": "Uxi",
+    "scientificName": "Endopleura uchi",
+    "biomes": ["Amazônia"],
+    "description": "Árvore amazônica com frutos comestíveis de polpa amarelada e sabor adocicado, apreciados in natura."
+  },
+  {
+    "id": 114,
+    "commonName": "Pequi-vinagre",
+    "scientificName": "Caryocar edule",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de Pequi com sabor mais ácido, usado na culinária e para fazer vinagre."
+  },
+  {
+    "id": 115,
+    "commonName": "Araticum-do-campo",
+    "scientificName": "Annona coriacea",
+    "biomes": ["Cerrado"],
+    "description": "Outra espécie de araticum do Cerrado, com frutos espinhosos e polpa doce e aromática."
+  },
+  {
+    "id": 116,
+    "commonName": "Baunilha-do-Cerrado",
+    "scientificName": "Vanilla edwallii",
+    "biomes": ["Cerrado"],
+    "description": "Orquídea nativa do Cerrado, produz vagens aromáticas semelhantes à baunilha."
+  },
+  {
+    "id": 117,
+    "commonName": "Cajuí",
+    "scientificName": "Anacardium parvifolium",
+    "biomes": ["Cerrado"],
+    "description": "Pequena árvore ou arbusto do Cerrado, com frutos e castanhas menores que o caju comum."
+  },
+  {
+    "id": 118,
+    "commonName": "Chapéu-de-Sol",
+    "scientificName": "Terminalia argentea",
+    "biomes": ["Cerrado"],
+    "description": "Árvore ornamental e para reflorestamento, com folhas prateadas e copa ampla."
+  },
+  {
+    "id": 119,
+    "commonName": "Embira-de-sapo",
+    "scientificName": "Luetzelburgia auriculata",
+    "biomes": ["Cerrado", "Caatinga"],
+    "description": "Árvore de madeira resistente, usada em construções e para cercas."
+  },
+  {
+    "id": 120,
+    "commonName": "Goiabinha-do-campo",
+    "scientificName": "Campomanesia adamantium",
+    "biomes": ["Cerrado"],
+    "description": "Fruteira nativa do Cerrado com frutos pequenos e saborosos, atrai fauna."
+  },
+  {
+    "id": 121,
+    "commonName": "Lobeira",
+    "scientificName": "Solanum lycocarpum",
+    "biomes": ["Cerrado"],
+    "description": "Planta com frutos parecidos com tomates grandes, consumidos por lobos-guarás e com propriedades medicinais."
+  },
+  {
+    "id": 122,
+    "commonName": "Marmelada-de-cachorro",
+    "scientificName": "Alibertia edulis",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Fruteira com frutos amarelos e doces, que servem de alimento para cachorros e outros animais selvagens."
+  },
+  {
+    "id": 123,
+    "commonName": "Pau-santo",
+    "scientificName": "Bulnesia sarmientoi",
+    "biomes": ["Chaco (próximo ao Pantanal)"],
+    "description": "Árvore de madeira aromática e densa, usada em artesanato e perfumaria, conhecida por suas propriedades."
+  },
+  {
+    "id": 124,
+    "commonName": "Tarumã",
+    "scientificName": "Vitex cymosa",
+    "biomes": ["Cerrado", "Mata Atlântica", "Pantanal"],
+    "description": "Árvore de porte médio, com flores roxas e frutos que atraem aves, usada em reflorestamento."
+  },
+  {
+    "id": 125,
+    "commonName": "Vinhático-do-campo",
+    "scientificName": "Plathymenia foliolosa",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de Vinhático adaptada ao Cerrado, com madeira de boa qualidade."
+  },
+  {
+    "id": 126,
+    "commonName": "Açoita-cavalo-do-campo",
+    "scientificName": "Luehea candicans",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Luehea do Cerrado, com flores brancas e crescimento rápido, útil para áreas degradadas."
+  },
+  {
+    "id": 127,
+    "commonName": "Pau-Cigarra",
+    "scientificName": "Senna sylvestris",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore com flores amarelas que atraem insetos, inclusive cigarras, comum em beiras de estradas."
+  },
+  {
+    "id": 128,
+    "commonName": "Araçá-roxo",
+    "scientificName": "Psidium cattleianum",
+    "biomes": ["Mata Atlântica", "Pampa"],
+    "description": "Fruteira nativa com frutos roxos e saborosos, usados em sucos e doces."
+  },
+  {
+    "id": 129,
+    "commonName": "Camboatã",
+    "scientificName": "Micropholis venulosa",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore de madeira resistente, usada em construções, e com flores pequenas e esverdeadas."
+  },
+  {
+    "id": 130,
+    "commonName": "Canela-Sassafrás",
+    "scientificName": "Ocotea odorifera",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore com madeira aromática e valorizada, em risco de extinção devido à exploração."
+  },
+  {
+    "id": 131,
+    "commonName": "Camboim",
+    "scientificName": "Myrciaria floribunda",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Pequena árvore frutífera com frutos vermelhos ou amarelos, atrai aves e é usada em paisagismo."
+  },
+  {
+    "id": 132,
+    "commonName": "Embaúba-prateada",
+    "scientificName": "Cecropia pachystachya",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Variedade de Embaúba com a parte inferior das folhas prateada, pioneira e atrai preguiças."
+  },
+  {
+    "id": 133,
+    "commonName": "Jacarandá-roxo-de-bola",
+    "scientificName": "Jacaranda micrantha",
+    "biomes": ["Mata Atlântica"],
+    "description": "Espécie de Jacarandá com flores roxas e frutos em formato de bola, ornamental."
+  },
+  {
+    "id": 134,
+    "commonName": "Jequitibá-Branco",
+    "scientificName": "Cariniana estrellensis",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Outra espécie de Jequitibá, também de grande porte, importante para a estrutura da floresta."
+  },
+  {
+    "id": 135,
+    "commonName": "Pau-Brasil-de-espinho",
+    "scientificName": "Caesalpinia ferrea var. leiostachya",
+    "biomes": ["Caatinga", "Cerrado"],
+    "description": "Espécie com tronco espinhoso, adaptada a ambientes mais secos, com flores amarelas."
+  },
+  {
+    "id": 136,
+    "commonName": "Pau-Viola",
+    "scientificName": "Piptadenia communis",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore que produz madeira leve, usada para instrumentos musicais e em reflorestamento."
+  },
+  {
+    "id": 137,
+    "commonName": "Sarauara",
+    "scientificName": "Dipteryx odorata",
+    "biomes": ["Amazônia"],
+    "description": "Árvore que produz o cumaru, uma semente aromática usada na culinária e perfumaria, também conhecida como fava tonka."
+  },
+  {
+    "id": 138,
+    "commonName": "Sucupira-Preta",
+    "scientificName": "Bowdichia virgilioides",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore de madeira escura e muito resistente, usada em pisos e mobiliário, com flores roxas."
+  },
+  {
+    "id": 139,
+    "commonName": "Tamboril-da-mata",
+    "scientificName": "Enterolobium schomburgkii",
+    "biomes": ["Amazônia"],
+    "description": "Variedade amazônica do Tamboril, com grande porte e importância ecológica na floresta."
+  },
+  {
+    "id": 140,
+    "commonName": "Timbaúva",
+    "scientificName": "Enterolobium timbouva",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de grande porte e rápido crescimento, com flores esbranquiçadas e vagens grandes."
+  },
+  {
+    "id": 141,
+    "commonName": "Angico-do-campo",
+    "scientificName": "Anadenanthera falcata",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Angico adaptada ao Cerrado, com flores amareladas e importância para a recuperação de solos."
+  },
+  {
+    "id": 142,
+    "commonName": "Barbatimão",
+    "scientificName": "Stryphnodendron adstringens",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Árvore medicinal com casca rica em taninos, usada para tratamentos de pele e inflamações."
+  },
+  {
+    "id": 143,
+    "commonName": "Cabralea",
+    "scientificName": "Cabralea canjerana",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore com madeira de boa qualidade e frutos comestíveis, atrai aves e é usada em reflorestamento."
+  },
+  {
+    "id": 144,
+    "commonName": "Caju-bravo",
+    "scientificName": "Anacardium microcarpum",
+    "biomes": ["Amazônia", "Cerrado"],
+    "description": "Espécie selvagem de caju, com frutos pequenos e saborosos, consumidos pela fauna."
+  },
+  {
+    "id": 145,
+    "commonName": "Calaba",
+    "scientificName": "Calophyllum brasiliense (variedade)",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Variedade do Guanandi, também conhecida como Calaba, com madeira de alta resistência."
+  },
+  {
+    "id": 146,
+    "commonName": "Ipê-cigarra",
+    "scientificName": "Handroanthus serratifolius (variação)",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Variação do Ipê Amarelo, que atrai cigarras durante a floração."
+  },
+  {
+    "id": 147,
+    "commonName": "Jatobá",
+    "scientificName": "Hymenaea courbaril",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica"],
+    "description": "Árvore de grande porte, com madeira muito dura e resistente, e frutos comestíveis com polpa farinácea."
+  },
+  {
+    "id": 148,
+    "commonName": "Guatambu",
+    "scientificName": "Aspidosperma subincanum",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de madeira clara e resistente, usada em construções e mobiliário."
+  },
+  {
+    "id": 149,
+    "commonName": "Pau-de-óleo",
+    "scientificName": "Copaifera multijuga",
+    "biomes": ["Amazônia"],
+    "description": "Espécie de Copaíba amazônica, produtora de grande quantidade de óleo resina."
+  },
+  {
+    "id": 150,
+    "commonName": "Pau-Pombo",
+    "scientificName": "Tapirira guianensis",
+    "biomes": ["Amazônia", "Mata Atlântica", "Cerrado"],
+    "description": "Árvore de rápido crescimento, com frutos que atraem pombos e outras aves, importante para reflorestamento."
+  },
+  {
+    "id": 151,
+    "commonName": "Sabugueiro-do-Brejo",
+    "scientificName": "Sambucus australis",
+    "biomes": ["Mata Atlântica", "Pampa"],
+    "description": "Arbusto ou pequena árvore com flores brancas e frutos escuros, usados em medicina popular."
+  },
+  {
+    "id": 152,
+    "commonName": "Sete-casacas",
+    "scientificName": "Luehea grandiflora",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de rápido crescimento, com casca que se solta em camadas, ornamental e para reflorestamento."
+  },
+  {
+    "id": 153,
+    "commonName": "Tarumã-do-cerrado",
+    "scientificName": "Vitex montevidensis",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de Tarumã adaptada ao Cerrado, com flores azuis e frutos comestíveis."
+  },
+  {
+    "id": 154,
+    "commonName": "Ipê-rosa",
+    "scientificName": "Handroanthus heptaphyllus",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Ipê de floração rosa intensa, muito popular na arborização e projetos de recuperação."
+  },
+  {
+    "id": 155,
+    "commonName": "Capororoca",
+    "scientificName": "Myrsine coriacea",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore de porte médio, com frutos pequenos e roxos que atraem aves, importante para a recuperação florestal."
+  },
+  {
+    "id": 156,
+    "commonName": "Jacarandá-da-Bahia",
+    "scientificName": "Dalbergia cearensis",
+    "biomes": ["Caatinga", "Cerrado"],
+    "description": "Espécie de Jacarandá com madeira muito dura e bonita, utilizada em artesanato fino."
+  },
+  {
+    "id": 157,
+    "commonName": "Carne-de-Vaca",
+    "scientificName": "Rauwolfia sellowii",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore pequena com flores brancas e frutos vermelhos, usada na medicina popular."
+  },
+  {
+    "id": 158,
+    "commonName": "Paineira-Rosa",
+    "scientificName": "Ceiba rosea",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Variedade de Paineira com flores em tons de rosa, muito ornamental e imponente."
+  },
+  {
+    "id": 159,
+    "commonName": "Guabiroba-roxa",
+    "scientificName": "Campomanesia puberula",
+    "biomes": ["Cerrado"],
+    "description": "Fruteira do Cerrado com frutos roxos e saborosos, fonte de alimento para a fauna."
+  },
+  {
+    "id": 160,
+    "commonName": "Camboatá-vermelho",
+    "scientificName": "Cupania vernalis",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore ornamental com flores amarelas e frutos vermelhos que se abrem, revelando sementes pretas com arilo alaranjado."
+  },
+  {
+    "id": 161,
+    "commonName": "Cangerana",
+    "scientificName": "Cabralea reitzii",
+    "biomes": ["Mata Atlântica"],
+    "description": "Outra espécie de Cabralea, com madeira avermelhada e aroma característico, valorizada na marcenaria."
+  },
+  {
+    "id": 162,
+    "commonName": "Canjarana",
+    "scientificName": "Cabralea canjerana (sinônimo)",
+    "biomes": ["Mata Atlântica"],
+    "description": "Conhecida como canjerana ou cabralea, árvore de grande porte, madeira nobre e frutos comestíveis."
+  },
+  {
+    "id": 163,
+    "commonName": "Guapuruvu-do-cerrado",
+    "scientificName": "Schizolobium parahyba var. amazonicum",
+    "biomes": ["Cerrado", "Amazônia"],
+    "description": "Variedade de Guapuruvu adaptada ao Cerrado, com rápido crescimento e boa para reflorestamento."
+  },
+  {
+    "id": 164,
+    "commonName": "Maria-preta",
+    "scientificName": "Eugenia involucrata",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Fruteira nativa com frutos escuros e saborosos, atrai aves e é boa para paisagismo."
+  },
+  {
+    "id": 165,
+    "commonName": "Murici-do-campo",
+    "scientificName": "Byrsonima verbascifolia",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de Murici do Cerrado, com frutos ácidos e saborosos, adaptada a ambientes mais secos."
+  },
+  {
+    "id": 166,
+    "commonName": "Pindaíba",
+    "scientificName": "Duguetia furfuracea",
+    "biomes": ["Cerrado"],
+    "description": "Árvore com frutos comestíveis, semelhantes a pequenas pinhas, com polpa aromática."
+  },
+  {
+    "id": 167,
+    "commonName": "Ingá-do-campo",
+    "scientificName": "Inga laurina",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Ingá adaptada ao Cerrado, com vagens comestíveis e importante para a recuperação de áreas."
+  },
+  {
+    "id": 168,
+    "commonName": "Jacarandá-branco",
+    "scientificName": "Jacaranda puberula (variedade alba)",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Variação do Jacarandá, com flores brancas e delicadas, ornamental e para arborização."
+  },
+  {
+    "id": 169,
+    "commonName": "Ipê-Preto",
+    "scientificName": "Handroanthus avellanedae",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Ipê com flores escuras e intensas, muito valorizado em paisagismo."
+  },
+  {
+    "id": 170,
+    "commonName": "Faveiro",
+    "scientificName": "Dimorphandra mollis",
+    "biomes": ["Cerrado"],
+    "description": "Árvore do Cerrado com flores amarelas e vagens grandes, importante para a recuperação de solos."
+  },
+  {
+    "id": 171,
+    "commonName": "Pau-D'alho",
+    "scientificName": "Gallesia integrifolia",
+    "biomes": ["Mata Atlântica", "Amazônia", "Cerrado"],
+    "description": "Árvore com cheiro de alho, muito utilizada em construções e para cercas, resistente à cupins."
+  },
+  {
+    "id": 172,
+    "commonName": "Grão-de-galo",
+    "scientificName": "Adenanthera pavonina",
+    "biomes": ["Mata Atlântica", "Amazônia (naturalizada)"],
+    "description": "Árvore com sementes vermelhas e brilhantes, usadas em artesanato, e folhas bipinadas."
+  },
+  {
+    "id": 173,
+    "commonName": "Sucupira-branca",
+    "scientificName": "Pterodon pubescens",
+    "biomes": ["Cerrado"],
+    "description": "Árvore do Cerrado com flores roxas e vagens grandes, com propriedades medicinais."
+  },
+  {
+    "id": 174,
+    "commonName": "Cajá-mirim",
+    "scientificName": "Spondias lutea var. dulcis",
+    "biomes": ["Mata Atlântica"],
+    "description": "Variedade menor do cajá, com frutos ácidos e saborosos, muito usados em sucos."
+  },
+  {
+    "id": 175,
+    "commonName": "Maracujá-do-mato",
+    "scientificName": "Passiflora cincinnata",
+    "biomes": ["Cerrado", "Caatinga"],
+    "description": "Espécie selvagem de maracujá, com frutos menores e sabor intenso, resistente à seca."
+  },
+  {
+    "id": 176,
+    "commonName": "Embiriba",
+    "scientificName": "Couratari stellata",
+    "biomas": ["Amazônia"],
+    "description": "Árvore de grande porte com madeira leve, usada na fabricação de caixas e embalagens."
+  },
+  {
+    "id": 177,
+    "commonName": "Mutamba",
+    "scientificName": "Guazuma ulmifolia",
+    "biomes": ["Mata Atlântica", "Cerrado", "Caatinga", "Amazônia"],
+    "description": "Árvore de rápido crescimento, com frutos comestíveis e mucilaginosos, usados em medicina popular."
+  },
+  {
+    "id": 178,
+    "commonName": "Pindaíba-do-campo",
+    "scientificName": "Duguetia spixiana",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Pindaíba do Cerrado, com frutos comestíveis e importância ecológica."
+  },
+  {
+    "id": 179,
+    "commonName": "Barbatimão-roxo",
+    "scientificName": "Stryphnodendron pulcherrimum",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de Barbatimão com casca mais escura e flores roxas, também com propriedades medicinais."
+  },
+  {
+    "id": 180,
+    "commonName": "Jambolão",
+    "scientificName": "Syzygium cumini",
+    "biomes": ["Naturalizada (exótica, mas adaptada)"],
+    "description": "Árvore com frutos roxos e adstringentes, comuns em arborização urbana e atraem aves."
+  },
+  {
+    "id": 181,
+    "commonName": "Uvaia",
+    "scientificName": "Eugenia pyriformis",
+    "biomes": ["Mata Atlântica"],
+    "description": "Fruteira nativa com frutos amarelos, ácidos e aromáticos, usados em sucos e geleias."
+  },
+  {
+    "id": 182,
+    "commonName": "Goiaba-brava",
+    "scientificName": "Psidium rufum",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Espécie selvagem de goiaba, com frutos menores e sabor marcante, atrai a fauna."
+  },
+  {
+    "id": 183,
+    "commonName": "Maria-mole",
+    "scientificName": "Cecropia glazioui",
+    "biomes": ["Mata Atlântica"],
+    "description": "Espécie de Embaúba com folhas grandes e prateadas, importante para a regeneração florestal."
+  },
+  {
+    "id": 184,
+    "commonName": "Pau-pombo-do-cerrado",
+    "scientificName": "Tapirira obtusa",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Pau-Pombo adaptada ao Cerrado, com frutos que atraem aves e boa para recuperação."
+  },
+  {
+    "id": 185,
+    "commonName": "Pau-papel",
+    "scientificName": "Didymopanax morototoni",
+    "biomes": ["Mata Atlântica", "Amazônia", "Cerrado"],
+    "description": "Árvore de rápido crescimento, com casca fina que se solta em camadas, usada em reflorestamento."
+  },
+  {
+    "id": 186,
+    "commonName": "Ipê-mirim",
+    "scientificName": "Handroanthus serratifolius (forma arbustiva)",
+    "biomes": ["Cerrado", "Mata Atlântica"],
+    "description": "Variação menor do Ipê Amarelo, crescendo como arbusto, ideal para jardins menores."
+  },
+  {
+    "id": 187,
+    "commonName": "Cajá-do-cerrado",
+    "scientificName": "Spondias tuberosa (variedade)",
+    "biomes": ["Cerrado"],
+    "description": "Variedade de cajá adaptada ao Cerrado, com frutos pequenos e ácidos."
+  },
+  {
+    "id": 188,
+    "commonName": "Amargoso",
+    "scientificName": "Picrasma excelsa",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore com propriedades medicinais, usada como tônico e contra febres."
+  },
+  {
+    "id": 189,
+    "commonName": "Angico-do-litoral",
+    "scientificName": "Anadenanthera peregrina",
+    "biomes": ["Mata Atlântica (Restinga)"],
+    "description": "Espécie de Angico adaptada a solos arenosos de restinga, pioneira."
+  },
+  {
+    "id": 190,
+    "commonName": "Pau-rosa-do-cerrado",
+    "scientificName": "Aniba parviflora",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Pau-rosa adaptada ao Cerrado, também aromática, mas menos explorada."
+  },
+  {
+    "id": 191,
+    "commonName": "Maracujá-doce",
+    "scientificName": "Passiflora alata",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Espécie de maracujá com frutos doces e aromáticos, muito apreciada para consumo in natura."
+  },
+  {
+    "id": 192,
+    "commonName": "Ingá-cipó",
+    "scientificName": "Inga vulpina",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Ingá trepadeira, com vagens comestíveis, útil para sistemas agroflorestais e recuperação de áreas."
+  },
+  {
+    "id": 193,
+    "commonName": "Cipó-cravo",
+    "scientificName": "Tynnanthus fasciculatus",
+    "biomes": ["Mata Atlântica", "Amazônia"],
+    "description": "Cipó lenhoso com aroma de cravo, usado em infusões e na medicina popular."
+  },
+  {
+    "id": 194,
+    "commonName": "Amarelinho-do-cerrado",
+    "scientificName": "Vochysia thyrsoidea",
+    "biomes": ["Cerrado"],
+    "description": "Árvore do Cerrado com flores amarelas vibrantes, ornamental e atrai polinizadores."
+  },
+  {
+    "id": 195,
+    "commonName": "Branquinho",
+    "scientificName": "Andira fraxinifolia",
+    "biomes": ["Mata Atlântica"],
+    "description": "Árvore de porte médio, com flores brancas e madeira de boa qualidade, utilizada em construções."
+  },
+  {
+    "id": 196,
+    "commonName": "Canela-branca",
+    "scientificName": "Ocotea puberula",
+    "biomes": ["Mata Atlântica", "Cerrado"],
+    "description": "Árvore aromática, com madeira de boa qualidade e folhas prateadas na parte inferior."
+  },
+  {
+    "id": 197,
+    "commonName": "Cedro-rosa",
+    "scientificName": "Cedrela odorata",
+    "biomes": ["Amazônia", "Mata Atlântica"],
+    "description": "Outra espécie de cedro, com madeira avermelhada e aromática, muito valorizada."
+  },
+  {
+    "id": 198,
+    "commonName": "Goiaba-serrana",
+    "scientificName": "Acca sellowiana",
+    "biomes": ["Mata Atlântica (Região Sul)"],
+    "description": "Fruteira com frutos comestíveis, saborosos e aromáticos, adaptada a climas mais frios."
+  },
+  {
+    "id": 199,
+    "commonName": "Jatobá-do-cerrado",
+    "scientificName": "Hymenaea stigonocarpa",
+    "biomes": ["Cerrado"],
+    "description": "Espécie de Jatobá adaptada ao Cerrado, com frutos e madeira semelhantes, mas porte menor."
+  },
+  {
+    "id": 200,
+    "commonName": "Pitombeira",
+    "scientificName": "Talisia esculenta",
+    "biomes": ["Amazônia", "Cerrado", "Mata Atlântica", "Caatinga"],
+    "description": "Árvore que produz frutos pequenos e doces, com polpa translúcida, muito populares em diversas regiões."
+  }
+]
