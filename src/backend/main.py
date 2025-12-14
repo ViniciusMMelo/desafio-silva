@@ -1,4 +1,5 @@
 from fastapi import APIRouter, FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from service import get_db, add_species, search_species_full, update_species, get_specie_by_id
 from schemas import SpeciesCreate, SpeciesResponse
 from typing import Optional
@@ -6,6 +7,16 @@ from typing import Optional
 app = FastAPI(
     title="Rest API com FastAPI",
     version="1.0.0"
+)
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],  # Permite GET, POST, PUT, DELETE, etc.
+    allow_headers=["*"],  # Permite todos os cabeçalhos
 )
 
 app_route = APIRouter(tags=['Species'])
