@@ -1,0 +1,7 @@
+.container {
+  margin: 0px;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #e4e2ce;
+  font-family: sans-serif;
+}
