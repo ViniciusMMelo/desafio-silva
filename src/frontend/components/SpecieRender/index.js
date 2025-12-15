@@ -39,7 +39,7 @@ export function SpecieRender({
             subtitle={item.scientificName || "Nome Científico não informado"}
             details={item.description || "Sem descrição."}
             tags={item.biomes || []}
-            openModal={() => openModal(true, item.id)}
+            openModal={() => openModal(item.id)}
           />
         ))}
       </ul>

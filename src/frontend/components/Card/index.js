@@ -22,7 +22,7 @@ export default function Card({ title, subtitle, details, tags, openModal }) {
       </div>
       <div className={styles.buttons}>
         <button className={styles.openButton} onClick={() => openModal()}>
-          Ver Mais
+          Editar
         </button>
       </div>
     </li>
