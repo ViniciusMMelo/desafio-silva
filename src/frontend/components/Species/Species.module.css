@@ -1,0 +1,14 @@
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonDiv {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

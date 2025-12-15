@@ -50,7 +50,6 @@ export default function SpeciesForm({
     }
   };
 
-  // Remove a tag ao clicar no X
   const removeBiomeTag = (tagToRemove) => {
     setForm((prev) => ({
       ...prev,

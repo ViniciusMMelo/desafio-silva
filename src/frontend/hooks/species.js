@@ -6,12 +6,15 @@ const baseURL = "https://desafio-silva.vercel.app/";
 export function getSpecies(start, end, searchTerm) {
   const key = `${baseURL}species?start=${start}&end=${end}&search=${searchTerm}`;
 
-  const { data, error, isLoading } = useSWR(key, fetchAPI);
+  const { data, error, isLoading, mutate } = useSWR(key, fetchAPI, {
+    refreshInterval: 2000,
+  });
 
   return {
     speciesList: Array.isArray(data) ? data : [],
     isLoading,
     isError: error,
+    refresh: mutate,
   };
 }
 
@@ -33,6 +36,23 @@ export async function updateSpecieById(id, body) {
   console.log(body);
   const response = await fetch(baseURL + "species/" + id, {
     method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Erro HTTP: ${response.status}`);
+  }
+
+  return await response.json();
+}
+
+export async function createSpecie(body) {
+  console.log(body);
+  const response = await fetch(baseURL + "species", {
+    method: "POST",
     headers: {
       "Content-Type": "application/json",
     },

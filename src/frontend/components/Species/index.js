@@ -3,10 +3,12 @@ import {
   getSpecies,
   getSpecieById,
   updateSpecieById,
+  createSpecie,
 } from "../../hooks/species";
 import { SpecieRender } from "../SpecieRender";
 import Modal from "../Modal";
 import SpeciesForm from "../SpeciesForm";
+import styles from "./Species.module.css";
 
 export default function Specie() {
   const [inputValue, setInputValue] = useState("");
@@ -20,13 +22,13 @@ export default function Specie() {
   const [biomes, setBiomes] = useState([]);
 
   useEffect(() => {
-    if (specieItem && !isLoadingItem) {
+    if (selectedId && specieItem && !isLoadingItem) {
       setName(specieItem.commonName || "");
       setScientificName(specieItem.scientificName || "");
       setDescription(specieItem.description || "");
       setBiomes(specieItem.biomes || []);
     }
-  }, [specieItem, isLoadingItem]);
+  }, [specieItem, isLoadingItem, selectedId]);
 
   const [searchTerm, setSearchTerm] = useState("");
   const [page, setPage] = useState(1);
@@ -45,6 +47,17 @@ export default function Specie() {
     setBiomes(specieItem?.biomes || []);
   };
 
+  const handleCreateNew = () => {
+    setSelectedId(null);
+
+    setName("");
+    setScientificName("");
+    setDescription("");
+    setBiomes([]);
+
+    openModal(true);
+  };
+
   const handleClose = () => {
     openModal(false);
     setSelectedId(null);
@@ -58,7 +71,7 @@ export default function Specie() {
 
     return () => clearTimeout(timeoutId);
   }, [inputValue]);
-  const { speciesList, isLoading, isError } = getSpecies(
+  const { speciesList, isLoading, isError, refresh } = getSpecies(
     start,
     end,
     searchTerm
@@ -68,6 +81,11 @@ export default function Specie() {
 
   return (
     <>
+      <div className={styles.buttonDiv}>
+        <button onClick={handleCreateNew} className={styles.button}>
+          + Nova Espécie
+        </button>
+      </div>
       <SpecieRender
         inputValue={inputValue}
         setInputValue={setInputValue}
@@ -84,21 +102,30 @@ export default function Specie() {
         {modal && !isLoadingItem && (
           <SpeciesForm
             name={name}
-            setName={setName} // Provavelmente você precisa passar as funções de set para o form funcionar
             scientificName={scientificName}
-            setScientificName={setScientificName}
             description={description}
-            setDescription={setDescription}
             biomes={biomes}
-            setBiomes={setBiomes}
-            onSubmit={(formData) => {
-              updateSpecieById(selectedId, {
-                commonName: formData.name,
-                scientificName: formData.scientificName,
-                biomes: formData.biomes,
-                description: formData.description,
-              });
-              handleClose();
+            onSubmit={async (formData) => {
+              try {
+                const payload = {
+                  commonName: formData.name,
+                  scientificName: formData.scientificName,
+                  biomes: formData.biomes,
+                  description: formData.description,
+                };
+
+                if (selectedId) {
+                  await updateSpecieById(selectedId, payload);
+                } else {
+                  await createSpecie(payload);
+                }
+
+                await refresh();
+                handleClose();
+              } catch (error) {
+                console.error("Erro ao salvar:", error);
+                alert("Erro ao salvar as alterações.");
+              }
             }}
           />
         )}
