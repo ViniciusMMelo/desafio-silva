@@ -9,7 +9,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = ["*"]
+origins = [
+    "https://friendly-goldfish-pv9v5454x6r369rq-3000.app.github.dev",
+    "http://localhost:3000",
+    "https://desafio-silva-front.vercel.app"
+]
 
 app.add_middleware(
     CORSMiddleware,
