@@ -1,94 +1,84 @@
 import json
+from supabase import create_client, Client
+from dotenv import load_dotenv
 
-def get_db():
-    with open("data/species.json", "r", encoding="utf-8") as file_json:
-        data_json = json.load(file_json)
+load_dotenv()
 
-    return data_json
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
-def save_db(data):
-    with open("data/species.json", "w", encoding="utf-8") as file_json:
-        json.dump(data, file_json, indent=2, ensure_ascii=False)
+if not SUPABASE_URL or not SUPABASE_KEY:
+    raise ValueError("Erro: SUPABASE_URL e SUPABASE_KEY precisam estar no arquivo .env ou nas variáveis da Vercel.")
 
-# def get_paginate(start, end):
-#     get_species = []
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-#     for i, species in enumerate(get_db()):
-#         if i >= start and i < end:
-#             get_species.append(species)
-    
-#         if i >= end:
-#             break
 
-#     return get_species  
-
-def get_specie_by_id(id_specie):
-    db = get_db()   
-    for specie in db:
-        if specie["id"] == id_specie:
-            return specie
-    return None 
-
-def add_species(new_specie_data):
-    db = get_db()
-
-    if db:
-        novo_id = max(item["id"] for item in db) + 1
-    else:
-        novo_id = 1
-
-    new_specie = {
-        "id": novo_id,
-        "commonName": new_specie_data["commonName"],
-        "scientificName": new_specie_data["scientificName"],
-        "biomes": new_specie_data["biomes"],
-        "description": new_specie_data["description"]
+def format_specie_to_frontend(db_item):
+    if not db_item:
+        return None
+    return {
+        "id": db_item.get("id"),
+        "commonName": db_item.get("common_name"),
+        "scientificName": db_item.get("scientific_name"),
+        "biomes": db_item.get("biomes"), # O Postgres já devolve como lista
+        "description": db_item.get("description")
     }
 
-    db.append(new_specie)
-    save_db(db)
+def get_db():
+    response = supabase.table("species").select("*").order("id").execute()
+
+    return [format_specie_to_frontend(item) for item in response.data]
+
+
+def get_specie_by_id(id_specie):
+    response = supabase.table("species").select("*").eq("id", id_specie).execute()
     
-    return new_specie
+    if response.data:
+        return format_specie_to_frontend(response.data[0])
+    return None
+
+def add_species(new_specie_data):
+
+    payload = {
+        "common_name": new_specie_data.get("commonName"),
+        "scientific_name": new_specie_data.get("scientificName"),
+        "biomes": new_specie_data.get("biomes"),
+        "description": new_specie_data.get("description")
+    }
+
+    response = supabase.table("species").insert(payload).execute()
+    
+    if response.data:
+        return format_specie_to_frontend(response.data[0])
+    return None
 
 def update_species(id_specie, data_update):
-    db = get_db()
-    isFound_specie = False
+    payload = {}
+    
+    if "commonName" in data_update:
+        payload["common_name"] = data_update["commonName"]
+    if "scientificName" in data_update:
+        payload["scientific_name"] = data_update["scientificName"]
+    if "biomes" in data_update:
+        payload["biomes"] = data_update["biomes"]
+    if "description" in data_update:
+        payload["description"] = data_update["description"]
 
-    for index, specie in enumerate(db):
-        if specie["id"] == id_specie:
-            db[index].update(data_update)
-            db[index]["id"] = id_specie 
-            isFound_specie = True
+    if not payload:
+        return get_specie_by_id(id_specie)
 
-            break 
+    response = supabase.table("species").update(payload).eq("id", id_specie).execute()
 
-    if isFound_specie:
-        save_db(db)
-
-        return db[index] 
-
-    else:
-        return None 
-
+    if response.data:
+        return format_specie_to_frontend(response.data[0])
+    return None
 
 def search_species_full(query):
-    db = get_db()
-    
     if not query:
-        return db
+        return get_db()
 
-    queryLower = query.lower()
-
-    result = []
+    search_filter = f"common_name.ilike.%{query}%,scientific_name.ilike.%{query}%,description.ilike.%{query}%"
     
-    for specie in db:
-        commonName_match = queryLower in specie.get("commonName", "").lower()
-        scientificName_match = queryLower in specie.get("scientificName", "").lower()
-        description_match = queryLower in specie.get("description", "").lower()
-        biomes_match = any(queryLower in b.lower() for b in specie.get("biomes", []))
-
-        # 3. Se for encontrado em QUALQUER um dos lugares, adiciona à lista
-        if commonName_match or scientificName_match or description_match or biomes_match:
-            result.append(specie)
-
-    return result
+    response = supabase.table("species").select("*").or_(search_filter).execute()
+    
+    return [format_specie_to_frontend(item) for item in response.data]
